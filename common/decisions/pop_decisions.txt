@@ -1,0 +1,19 @@
+#################################
+#		Prophecy of Prydain		#
+#		Decisions				#
+#		By AdvLeon				#
+#################################
+
+##### Search for the sword #####
+pop_excalibur_search_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	major = yes
+	ai_check_interval = 60
+
+	is_shown = {
+		is_landed = yes
+		culture = { has_cultural_pillar = heritage_brythonic }
+	}
+
+}
