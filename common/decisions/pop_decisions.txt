@@ -1,7 +1,7 @@
 #################################
-#		Prophecy of Prydain		#
-#		Decisions				#
-#		By AdvLeon				#
+# Prophecy of Prydain
+# Decisions
+# By AdvLeon
 #################################
 
 ##### Search for the sword #####
@@ -16,4 +16,7 @@ pop_excalibur_search_decision = {
 		culture = { has_cultural_pillar = heritage_brythonic }
 	}
 
+	is_valid = {
+		culture = { has_cultural_pillar = heritage_brythonic } 
+	}	
 }
